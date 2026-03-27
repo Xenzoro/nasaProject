@@ -85,7 +85,7 @@ function getImages() {
                 // Create a modal for each card, with a unique id (NO d-none)
                 modalsHTML += `
                     <div class="modal  fade" id="modal-${index}" tabindex="-1" role="dialog">
-                      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+                      <div class="modal-dialog modal-dialog-scrollable" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
                             <h5 class="modal-title">${element.title}</h5>

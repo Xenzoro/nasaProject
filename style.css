@@ -192,6 +192,11 @@ button:hover {
 
 }
 
+/* Make scrollable modals use more vertical space and reduce empty space */
+.modal-dialog-scrollable {
+  max-height: 90vh;
+}
+
 @media (max-width: 600px) {
   .card-title{
     font-size: 13px;
