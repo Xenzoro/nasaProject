@@ -107,7 +107,7 @@ button:hover {
 /*  }*/
 
 
-}
+/*}*/
 
 .gallery-item img {
   width: 100%;
@@ -157,19 +157,36 @@ button:hover {
 }
 .card:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transform: scale(1.05)
+  transform: scale(1.02)
 
 }
 
 .card-img-top {
-    height: 80%; /* Reserve 80% of the card height for the image */
+    height: 75%; /* Reserve 80% of the card height for the image */
     object-fit: cover; /* Scale image to fill the space while maintaining aspect ratio */
 }
 
 .card-body {
-    height: 20%; /* Reserve 20% of the card height for the body */
+    height: 30%; /* Reserve 20% of the card height for the body */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+.close{
+  width: 120px;
+}
+.modal-body p {
+  margin-top: 20px;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .card-title{
+    font-size: 13px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
 }

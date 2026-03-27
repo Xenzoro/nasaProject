@@ -13,11 +13,15 @@
       <img src="img/nasa-worm-logo.png" alt="NASA Logo" class="logo" />
       <h1>Space Explorer</h1>
     </header>
-
     <div class="filters">
       <input type="date" id="startDate" />
       <input type="date" id="endDate" />
       <button id="imageButton">Get Space Images</button>
+    </div>
+
+    <div id="funFactContainer" class="container align-items-center justify-content-center text-center">
+      <h1 id="">Fun Fact</h1>
+      <p id="factP" class=""></p>
     </div>
 
     <div id =galleryContainer class="container text-center "></div>
@@ -27,9 +31,16 @@
         <p id="caption">Select a date range and click "Get Space Images" to explore the cosmos!</p>
       </div>
     </div>
+
+
+
   </div>
 
   <script src="js/dateRange.js"></script>
   <script src="js/script.js"></script>
+  <!-- Bootstrap JS, Popper.js, and jQuery for modal functionality -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
